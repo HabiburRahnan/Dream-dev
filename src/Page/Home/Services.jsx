@@ -10,7 +10,7 @@ const Services = () => {
   }, []);
   console.log(items);
   return (
-    <div>
+    <div className="container mx-auto">
       <Title
         title="Quality "
         title2="Services"

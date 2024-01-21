@@ -25,9 +25,9 @@ const Navbar = () => {
     </>
   );
   return (
-    <Headroom>
-      <div className=" navbar z-50   top-3  ba-base-100">
-        <div className="navbar-start container mx-auto ">
+    <Headroom className="bg-base-100">
+      <div className=" navbar z-50   top-3  bg-base-100 container mx-auto">
+        <div className="navbar-start  ">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
@@ -63,9 +63,7 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">{navLink}</ul>
         </div>
         <div className="navbar-end">
-          <Link to="/global" className=" ">
-         
-          </Link>
+          <Link to="/global" className=" "></Link>
         </div>
       </div>
     </Headroom>

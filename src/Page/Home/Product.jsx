@@ -10,7 +10,7 @@ const Product = () => {
   }, []);
   // console.log(products);
   return (
-    <div className="py-10">
+    <div className="py-10 container mx-auto">
       <Title
         title="Exclusive "
         title2="Products"

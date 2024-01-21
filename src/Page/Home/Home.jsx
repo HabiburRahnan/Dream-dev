@@ -14,9 +14,8 @@ const Home = () => {
       <Product></Product>
       <Services></Services>
       <HeroSection></HeroSection>
-      <Hero></Hero>
-      
       <Count></Count>
+      <Hero></Hero>
     </div>
   );
 };
