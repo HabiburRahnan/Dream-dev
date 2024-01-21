@@ -12,14 +12,15 @@ const Product = () => {
   return (
     <div className="py-10">
       <Title
-        title="Exclusive Products"
+        title="Exclusive "
+        title2="Products"
         subTitle="Unleash the Power of Advanced Technology"
       ></Title>
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 ">
         {products?.map((product) => (
           <div
             key={product.id}
-            className="card card-side bg-base-100  px-5 border border-blue-600 hover:border-black transition   "
+            className="card card-side bg-base-100  px-5 border border-blue-600 hover:border-black transition  mx-5 "
           >
             <figure>
               <img src={product.image} alt="Image" />

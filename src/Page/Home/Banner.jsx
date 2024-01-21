@@ -2,7 +2,7 @@ const Banner = () => {
   return (
     <div>
       <div
-        className="hero h-full md:h-[800px] "
+        className="hero h-[1200px] md:h-[800px]  "
         style={{
           backgroundImage: "url(https://i.ibb.co/p0hhZPZ/laptop.webp)",
         }}
@@ -14,7 +14,7 @@ const Banner = () => {
               Innovate & Transform your <br></br> business with
               <span className="font-bold"> Dream Dev Ltd.</span>
             </h1>
-            <p className="mb-5 text-2xl font-medium leading-loose">
+            <p className="mb-5 text-xl  md:text-2xl font-medium leading-loose">
               Get access to advanced cloud-based business solutions that can
               help you to stay ahead of the competition with the help of the
               leading software company in Bangladesh. At Dream Dev Limited, we
