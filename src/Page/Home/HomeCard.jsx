@@ -8,21 +8,21 @@ const HomeCard = () => {
       .then((res) => res.json())
       .then((data) => setItems(data));
   }, []);
-  console.log(items);
+  // console.log(items);
   return (
     <div className="container mx-auto  ">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mx-5">
         {items?.map((item) => (
           <div
             key={item.id}
-            className="md:p-6 p-5 w-96 border  my-10 shadow-lg shadow-red-950 bg-white"
+            className="md:p-6 p-5  border  my-10 shadow-xl  bg-white"
           >
             <div className="flex items-center justify-center">
               <img className="w-20" src={item.image} alt="" />
             </div>
             <div className="text-center mt-5">
               <div className="text-2xl font-bold pb-2 -mt-4 p-5">{item.title}</div>
-              <div className=" font-semibold">{item.description}</div>
+              <div className=" font-semibold p-5">{item.description}</div>
             </div>
           </div>
         ))}
