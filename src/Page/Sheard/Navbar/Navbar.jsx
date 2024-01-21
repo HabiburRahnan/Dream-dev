@@ -4,22 +4,22 @@ const Navbar = () => {
   const navLink = (
     <>
       <li>
-        <Link>Home</Link>
+        <Link to="/">Home</Link>
       </li>
       <li>
-        <Link>Services</Link>
+        <Link to="/services">Services</Link>
       </li>
       <li>
-        <Link>Products</Link>
+        <Link to="/products">Products</Link>
       </li>
       <li>
-        <Link>About</Link>
+        <Link to="/about">About</Link>
       </li>
       <li>
-        <Link>Industries</Link>
+        <Link to="/industries">Industries</Link>
       </li>
       <li>
-        <Link>Client</Link>
+        <Link to="/client">Client</Link>
       </li>
     </>
   );
@@ -61,7 +61,7 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">{navLink}</ul>
       </div>
       <div className="navbar-end">
-        <Link className="">Global</Link>
+        <Link to="/global" className=" btn">Global</Link>
       </div>
     </div>
   );
