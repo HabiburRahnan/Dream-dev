@@ -21,7 +21,10 @@ const Services = () => {
           {items?.map((item) => (
             <div
               key={item.id}
-              className="md:p-6 p-5  border  my-10 shadow-lg hover:shadow-xl transition  bg-white z-20  rounded-xl"
+              className="md:p-6 p-5  border  my-10 shadow-lg hover:shadow-xl transition  bg-white  rounded-xl"
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
             >
               <div className="flex items-center justify-center">
                 <img className="w-36" src={item.image} alt="" />
@@ -30,7 +33,9 @@ const Services = () => {
                 <div className="text-2xl font-bold pb-2 -mt-4 p-5">
                   {item.title}
                 </div>
-                <div className=" font-semibold p-5 text-gray-500">{item.description}</div>
+                <div className=" font-semibold p-5 text-gray-500">
+                  {item.description}
+                </div>
               </div>
             </div>
           ))}

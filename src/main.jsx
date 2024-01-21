@@ -5,7 +5,8 @@ import "./index.css";
 import { ThemeProvider } from "@material-tailwind/react";
 import Main from "./Layout/Main";
 import Home from "./Page/Home/Home";
-
+import Aos from "aos";
+Aos.init();
 const router = createBrowserRouter([
   {
     path: "/",

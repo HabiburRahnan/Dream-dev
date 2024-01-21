@@ -10,18 +10,17 @@ const HeroSection = () => {
           <img
             src="https://i.ibb.co/y5HJCh1/download-4.jpg"
             className="w-full h-[400px] rounded-lg shadow-2xl"
+            data-aos="fade-right"
+            data-aos-duration="2000"
           />
-          <div className="ml-5">
+          <div className="ml-5" data-aos="fade-left" data-aos-duration="2000">
             <h1 className="text-[#273171] text-2xl font-bold pb-10">
               --- Dream Dev Limited
             </h1>
             <h1 className="text-3xl font-bold text-blue-500 hover:text-black">
-              The Fastest Growing
-              <span className="text-[#273171]">
-                Software Company in Bangladesh
-              </span>
+              The Fastest Growing <span className="text-[#273171]"> Software Company in Bangladesh</span>
             </h1>
-            <p className="py-3 font-medium leading-loose text-gray-500 text-xl ">
+            <p className="py-3 font-medium leading-loose text-gray-700 text-xl ">
               We pride ourselves on consistently delivering more than what is
               expected to our clients. This is why we have become an example in
               the industry as the fastest growing software company in Bangladesh

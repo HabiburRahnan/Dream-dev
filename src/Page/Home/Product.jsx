@@ -8,7 +8,7 @@ const Product = () => {
       .then((res) => res.json())
       .then((data) => setProduct(data));
   }, []);
-  console.log(products);
+  // console.log(products);
   return (
     <div className="py-10">
       <Title
@@ -21,6 +21,9 @@ const Product = () => {
           <div
             key={product.id}
             className="card card-side bg-base-100  px-5 border border-blue-600 hover:border-black transition  mx-5 "
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="2000"
           >
             <figure>
               <img src={product.image} alt="Image" />
