@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "image": "https://i.ibb.co/y05ptmS/logo1.jpg",
+    "title": "UI/UX Design",
+    "description": "Dream Dev Limited offers resource augmentation for businesses, providing skilled professionals to enhance your team's capabilities."
+  },
+  {
+    "id": "2",
+    "image": "https://i.ibb.co/gJ6PVX6/download-11.png",
+    "title": "Resource Augmentation",
+    "description": "Dream Dev Limited offers resource augmentation for businesses, providing skilled professionals to enhance your team's capabilities.."
+  },
+  {
+    "id": "3",
+    "image": "https://i.ibb.co/ngPWYKg/download-12.png",
+    "title": "Web Application Development",
+    "description": "Our cutting-edge web app development services streamline business operations. Workflow automation and corporate system integration are our specialties."
+  },
+  {
+    "id": "4",
+    "image": "https://i.ibb.co/qBnbcsn/images.jpg",
+    "title": "Mobile Apps Development",
+    "description": "We'll design an innovative mobile app for you to exploit mobile technology's potential. For custom mobile app development, we're the firm to trust."
+  },
+  {
+    "id": "5",
+    "image": "https://i.ibb.co/hMwW8wh/images-1.jpg",
+    "title": "E-commerce Solution",
+    "description": "Looking for the perfect e-commerce solution to reach more customers? Our experts have you covered with shopping carts, payment gateways, inventory management, and more."
+  },
+  {
+    "id": "6",
+    "image": "https://i.ibb.co/f1j48hR/download-3.jpg",
+    "title": "DevOps & Cloud Services",
+    "description": "Dream Dev's DevOps Services maximize software development and IT operations by automating inefficiencies, increase software quality and dependability."
+  },
+  {
+    "id": "7",
+    "image": "https://i.ibb.co/wRGspRg/download-13.png",
+    "title": "Business Intelligence",
+    "description": "Use our cutting-edge Business Intelligence services. We can help you interpret your data via visual analysis and predictive modeling."
+  },
+  {
+    "id": "8",
+    "image": "https://i.ibb.co/znj77Nn/download-14.png",
+    "title": "Business Intelligence",
+    "description": "Dream Dev Limited offers professional IT consultancy services to businesses, providing expert guidance and solutions for your technology needs."
+  }
+]

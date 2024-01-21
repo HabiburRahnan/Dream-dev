@@ -19,13 +19,13 @@ const Product = () => {
         {products?.map((product) => (
           <div
             key={product.id}
-            className="card card-side bg-base-100  p-5 border border-blue-600"
+            className="card card-side bg-base-100  px-5 border border-blue-600 hover:border-black transition   "
           >
             <figure>
-              <img  src={product.image} alt="Image" />
+              <img src={product.image} alt="Image" />
             </figure>
             <div className="card-body">
-              <h2 className="card-title">{product.title}</h2>
+              <h2 className="card-title hover:underline">{product.title}</h2>
               <p>{product.description}</p>
             </div>
           </div>
