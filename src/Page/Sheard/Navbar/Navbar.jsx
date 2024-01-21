@@ -7,19 +7,19 @@ const Navbar = () => {
         <Link to="/">Home</Link>
       </li>
       <li>
-        <Link to="/services">Services</Link>
+        <Link to="/">Services</Link>
       </li>
       <li>
-        <Link to="/products">Products</Link>
+        <Link to="/">Products</Link>
       </li>
       <li>
-        <Link to="/about">About</Link>
+        <Link to="/">About</Link>
       </li>
       <li>
-        <Link to="/industries">Industries</Link>
+        <Link to="/">Industries</Link>
       </li>
       <li>
-        <Link to="/client">Client</Link>
+        <Link to="/">Client</Link>
       </li>
     </>
   );
@@ -61,7 +61,9 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">{navLink}</ul>
       </div>
       <div className="navbar-end">
-        <Link to="/global" className=" btn">Global</Link>
+        <Link to="/global" className=" btn">
+          Global
+        </Link>
       </div>
     </div>
   );
