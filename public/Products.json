@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "image": "https://i.ibb.co/fFMNJ3D/download-4-removebg-preview.png",
+    "title": "Dream Dev Enterprise",
+    "description": "The all-in-all ERP Solution that can integrate every part of any Enterprise-level organization into one single platform."
+  },
+  {
+    "id": "2",
+    "image": "https://i.ibb.co/yNVDv4T/download-5-removebg-preview.png",
+    "title": "Managerium",
+    "description": "Fix every organizational operation problem to maximize smooth supervision over your business anytime, anywhere."
+  },
+  {
+    "id": "3",
+    "image": "https://i.ibb.co/nBHRQc8/download-6-removebg-preview.png",
+    "title": "PeopleDesk",
+    "description": "Take care of every single part of your HR operation with the country’s finest Human Resource Management software."
+  },
+  {
+    "id": "4",
+    "image": "https://i.ibb.co/nBHRQc8/download-6-removebg-preview.png",
+    "title": "Prime VAT",
+    "description": "VAT and Tax are considered as the most hassling parts of a business. But Prime VAT has come up as a perfect solution to get it all done."
+  },
+  {
+    "id": "5",
+    "image": "https://i.ibb.co/nBHRQc8/download-6-removebg-preview.png",
+    "title": "Dream Dev RTM",
+    "description": "Missing the flawless management of your salesforce? iBOS RTM is a one-stop solution for getting the job done quickly and easily anywhere."
+  },
+  {
+    "id": "6",
+    "image": "https://i.ibb.co/nBHRQc8/download-6-removebg-preview.png",
+    "title": "Are you interested?",
+    "description": "Click here to schedule a meeting and a software demonstration to learn more about how our solutions can perfectly benefit your business with ease."
+  }
+]
